@@ -16,9 +16,9 @@ public class Reverse {
         printingOfArray(num);
 
         //Second Task
-        int[] daim = {12, -3, 53, -86, 5};
+         int[] daim = {12, 53, -17, 5, -53};
         System.out.println("The sum of positive values:");
-        theSum(daim);
+        System.out.println(theSum(daim));
 
         //Third Task
         int[] chag = {2, 4, 7, 16};
@@ -50,12 +50,12 @@ public class Reverse {
     }
 
     private static int theSum(int[] daim) {
-        int sum = 0;
+        int  sum = 0;
         for (int i = 0; i < daim.length; i++) {
             if (daim[i] > 0)
-                sum += daim[i];
-            System.out.println(sum);
+                sum = sum + daim[i];
         }
+
         return sum;
     }
 
