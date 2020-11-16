@@ -16,18 +16,18 @@ public class Reverse {
         printingOfArray(num);
 
         //Second Task
-         int[] daim = {12, 53, -17, 5, -53};
+         Integer[] daim = {12, 53, -17, 5, -53};
         System.out.println("The sum of positive values:");
         System.out.println(theSum(daim));
 
         //Third Task
-        int[] chag = {2, 4, 7, 16};
+        Integer[] chag = {2, 4, 7, 16};
         System.out.println("The avarage of values: ");
         theAvarage(chag);
 
 
         //Forth Task
-        int[] dex = {3, 2, 3, 1, 4, 2, 8, 3};
+        Integer[] dex = {3, 2, 3, 1, 4, 2, 8, 3};
         System.out.println("Duplicating values: ");
         duplicatedValues(dex);
     }
