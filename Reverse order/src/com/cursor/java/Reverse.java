@@ -67,6 +67,7 @@ public class Reverse {
 
                 if (dex[b] == dex[i]) {
                     dex[b] = 0;
+                    break;
                 }
 
             }
